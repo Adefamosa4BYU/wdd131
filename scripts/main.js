@@ -11,6 +11,3 @@ const hamburger = document.getElementById('hamburger');
 
 document.getElementById("last-modified").textContent =
   `Last Updated: ${document.lastModified}`;
-
-
-
