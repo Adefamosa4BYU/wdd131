@@ -73,7 +73,8 @@ nav.nav-menu {
   background-color: #111;
 }
 
-nav.nav-menu a {
+nav.nav-menu a,
+nav.nav-menu a:hover {
   padding: 0.8rem;
   color: white;
   text-decoration: none;
@@ -153,7 +154,10 @@ h2 {
 .location ul li a {
   line-height: 1.5rem;
   text-decoration: none;
+}
 
+.location ul li a:hover{
+  font-weight: 700;
 }
 
 .cert-section .filters {
