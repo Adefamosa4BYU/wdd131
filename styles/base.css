@@ -67,6 +67,24 @@ header {
   transition: 0.3s;
 }
 
+.hamburger .close-icon {
+  /* position: absolute; */
+  width: 25px;
+  height: 25px;
+  transition: 0.3s;
+  font-size: 24px;
+  color: #fff;
+  display: none;
+}
+
+.hamburger.active .line {
+  display: none;
+}
+
+.hamburger.active .close-icon {
+  display: block;
+}
+
 nav.nav-menu {
   display: flex;
   justify-content: space-around;
