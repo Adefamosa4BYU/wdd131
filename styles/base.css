@@ -91,12 +91,17 @@ nav.nav-menu {
   background-color: #111;
 }
 
-nav.nav-menu a,
-nav.nav-menu a:hover {
+nav.nav-menu a {
   padding: 0.8rem;
   color: white;
   text-decoration: none;
   display: block;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav.nav-menu a:hover {
+  transform: scale(1.05);
+  text-decoration: underline;
 }
 
 .nav-menu .active {
