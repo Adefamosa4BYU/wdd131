@@ -15,6 +15,11 @@ main h1 {
   margin-bottom: 1rem;
 }
 
+main section    {
+    grid-column: 1 /-1;
+    text-align: center;
+}
+
 figure {
   margin: 0;
   border: 1px solid #ccc;
