@@ -102,8 +102,19 @@ footer {
   font-size: 0.9rem;
 }
 
+
+.weather img {
+  width: 50px;
+  display: none;
+  margin: 0 auto;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 600px) {
+    .weather img {
+      display: block;
+    }
+
   .info-card {
     position: static;
     margin: 1rem auto;
