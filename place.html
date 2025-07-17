@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Weather and basic information for Madagascar">
+  <title>Madagascar</title>
+  <link rel="stylesheet" href="styles/place.css" />
+</head>
+<body>
+  <header>
+    <h1>Madagascar</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/placebg.webp" alt="Lemurs in Madagascar" />
+      <div class="info-card data">
+        <h2 class="card-header">Data</h2>
+        <ul>
+          <li><strong>Area:</strong> 587,041 sq km</li>
+          <li><strong>Population:</strong> 27,691,018</li>
+          <li><strong>Capital:</strong> Antananarivo</li>
+          <li><strong>Languages:</strong> Malagasy, French</li>
+          <li><strong>Currency:</strong> Malagasy Ariary</li>
+          <li><strong>Time Zone:</strong> UTC+3</li>
+          <li><strong>Calling Code:</strong> +261</li>
+          <li><strong>Internet TLD:</strong> .mg</li>
+        </ul>
+      </div>
+
+      <div class="info-card weather">
+        <h3 class="card-header weather-heading">Weather</h3>
+        <ul>
+          <li><strong>Temperature:</strong> 10 °C</li>
+          <li><strong>Conditions:</strong> Partly Cloudy</li>
+          <li><strong>Wind:</strong> 5 km/h</li>
+          <li><strong>Wind Chill:</strong> <span id="windChill">N/A</span></li>
+        </ul>
+        <img src="images/weather.svg" alt="Partly Cloudy Icon" class="weather-icon" />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> 🌸 Rubia Magdelena Francesco 🌸 Madagascar</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+  </footer>
+
+  <script src="scripts/place.js" defer></script>
+</body>
+</html>
