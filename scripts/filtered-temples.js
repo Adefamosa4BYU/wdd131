@@ -55,7 +55,7 @@ const temples = [
     imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
-  // Your additional temples
+  // additional temples
   {
     templeName: "Benin City Nigeria",
     location: "Benin City, Nigeria",
@@ -93,7 +93,7 @@ function displayTemples(filteredTemples) {
     <p><strong>Dedicated:</strong> ${t.dedicated}</p>
     <p><strong>Area:</strong> ${t.area.toLocaleString()} sq ft</p>
   </div>
-      <img src="${t.imageUrl}" alt="${t.templeName}" loading="lazy" referrerpolicy="no-referrer">
+      <img src="${t.imageUrl}" alt="${t.templeName}" loading="lazy">
     `;
     container.appendChild(card);
   });
@@ -117,4 +117,9 @@ document.getElementById("small").addEventListener("click", () =>
   displayTemples(temples.filter(t => t.area < 10000))
 );
 
+  // Set current year
+  document.getElementById("year").textContent = new Date().getFullYear();
 
+  // Set last modified date
+  document.getElementById("lastModified").textContent = document.lastModified;
+  
