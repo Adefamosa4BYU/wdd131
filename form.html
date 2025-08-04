@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | WDD 131 – Dynamic Web Fundamentals – Adegbite Famosa</title>
+    <meta name="author" content="Adegbite Famosa">
+    <meta name="description"
+        content="Week 1 project for WDD 131: Responsive Web Design. Created by Adegbite Famosa to demonstrate responsive layout, JavaScript functionality, and dynamic content rendering.">
+
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="ACI Tech Hub - Empowering Nigeria through Technology" />
+    <meta property="og:description"
+        content="Join our digital literacy programs and tech support for small businesses and beginners." />
+    <meta property="og:image" content="https://adefamosa4byu.github.io/wdd131/images/logo.png" />
+    <meta property="og:url" content="https://adefamosa4byu.github.io/wdd131/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ACI Tech Hub - Empowering Nigeria through Technology" />
+    <meta name="twitter:description" content="Digital literacy and tech support for Nigerians." />
+    <meta name="twitter:image" content="https://adefamosa4byu.github.io/wdd131/images/logo.png" />
+
+
+
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <link rel="stylesheet" href="styles/temples-large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+   
+
+
+</head>
+
+<body>
+    <header>
+      <h1>Product Review</h1>
+        <!-- <div class="header-container">
+            <div class="header-title">
+                <span id="course-title">Temple Album</span>
+
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="close-icon">×</span>
+            </button>
+        </div>
+        <nav class="nav-menu" id="navMenu">
+            <a href="#" id="home">Home</a>
+            <a href="#" id="old">Old</a>
+            <a href="#" id="new">New</a>
+            <a href="#" id="large">Large</a>
+            <a href="#" id="small">Small</a>
+        </nav> -->
+    </header>
+
+    <main>
+    
+    <form method="get" action="review.html">
+      <!-- Product Name -->
+      <label for="productName">Product Name *</label>
+      <select id="productName" name="productName" required>
+        <option value="" disabled selected>Select a Product ...</option>
+      </select>
+
+      <!-- Overall Rating -->
+      <fieldset>
+        <legend>Overall Rating *</legend>
+        <div class="stars">
+          <label><input type="radio" name="rating" value="1" required />☆</label>
+          <label><input type="radio" name="rating" value="2" />☆☆</label>
+          <label><input type="radio" name="rating" value="3" />☆☆☆</label>
+          <label><input type="radio" name="rating" value="4" />☆☆☆☆</label>
+          <label><input type="radio" name="rating" value="5" />☆☆☆☆☆</label>
+        </div>
+      </fieldset>
+
+      <!-- Date of Installation -->
+      <label for="installDate">Date of Installation *</label>
+      <input type="date" id="installDate" name="installDate" required />
+
+      <!-- Useful Features -->
+      <fieldset>
+        <legend>Useful Features (Check all that apply)</legend>
+        <label><input type="checkbox" id="feature1" name="features" value="durability" />Durability</label>
+        <label><input type="checkbox" id="feature2" name="features" value="design" />Design</label>
+        <label><input type="checkbox" id="feature3" name="features" value="efficiency" />Efficiency</label>
+      </fieldset>
+
+      <!-- Written Review -->
+      <label for="writtenReview">Written Review</label>
+      <textarea id="writtenReview" name="writtenReview" rows="4" cols="50" placeholder="Share your experience..."></textarea>
+
+      <!-- User Name -->
+      <label for="userName">Your Name (Optional)</label>
+      <input type="text" id="userName" name="userName" />
+
+      <!-- Submit Button -->
+      <input type="submit" value="Submit Review" />
+    </form>
+  </main>
+
+  <footer>
+  <p>
+    &copy; <span id="year"></span> | 
+    Student: Adegbite Famosa | 
+    Last Modified: <span id="lastModified"></span>
+  </p>
+</footer>
+
+
+    <script src="scripts/form.js" defer></script>
+</body>
+
+</html>
