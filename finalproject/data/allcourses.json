@@ -1,0 +1,64 @@
+{
+  "courses": [
+    {
+      "category": "Web Development",
+      "title": "HTML & CSS Fundamentals",
+      "description": "Learn the building blocks of the web.",
+      "image": "images/allcourses/1.webp"
+    },
+    {
+      "category": "Web Development",
+      "title": "JavaScript Basics",
+      "description": "Understand how JavaScript powers interactivity.",
+      "image": "images/allcourses/2.webp"
+    },
+    {
+      "category": "Web Development",
+      "title": "Responsive Design",
+      "description": "Build mobile-first, responsive websites.",
+      "image": "images/allcourses/3.webp"
+    },
+    {
+      "category": "Graphics Design",
+      "title": "Adobe Photoshop Essentials",
+      "description": "Create stunning graphics and visual art.",
+      "image": "images/allcourses/4.webp"
+    },
+    {
+      "category": "Graphics Design",
+      "title": "Canva for Beginners",
+      "description": "Design graphics easily using Canva.",
+      "image": "images/allcourses/5.webp"
+    },
+    {
+      "category": "Digital Marketing",
+      "title": "SEO Fundamentals",
+      "description": "Improve your search engine rankings.",
+      "image": "images/allcourses/6.webp"
+    },
+    {
+      "category": "Digital Marketing",
+      "title": "Social Media Marketing",
+      "description": "Leverage social media to grow your business.",
+      "image": "images/allcourses/7.webp"
+    },
+    {
+      "category": "Digital Marketing",
+      "title": "Email Marketing",
+      "description": "Reach your audience effectively via email.",
+      "image": "images/allcourses/8.webp"
+    },
+    {
+      "category": "Entrepreneurship",
+      "title": "Starting a Tech Business",
+      "description": "Turn your idea into a thriving startup.",
+      "image": "images/allcourses/9.webp"
+    },
+    {
+      "category": "Entrepreneurship",
+      "title": "Business Branding",
+      "description": "Build a brand that stands out.",
+      "image": "images/allcourses/10.webp"
+    }
+  ]
+}

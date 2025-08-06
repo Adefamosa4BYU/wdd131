@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Empowering Nigerians with tech skills through digital literacy and coding workshops." />
+  <meta name="author" content="Adegbite Famosa" />
+ 
+  <!-- Open Graph / Facebook -->
+<meta property="og:title" content="ACI Tech Hub - Empowering Nigeria through Technology" />
+<meta property="og:description" content="Join our digital literacy programs and tech support for small businesses and beginners." />
+<meta property="og:image" content="https://adefamosa4byu.github.io/wdd231/finalproject/images/logosmall.webp" />
+<meta property="og:url" content="https://adefamosa4byu.github.io/wdd231/finalproject/" />
+<meta property="og:type" content="website" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="ACI Tech Hub - Empowering Nigeria through Technology" />
+<meta name="twitter:description" content="Digital literacy and tech support for Nigerians." />
+<meta name="twitter:image" content="https://adefamosa4byu.github.io/wdd231/finalproject/images/logosmall.webp" />
+ 
+ 
+
+    <!-- Title -->
+  <title>ACI Tech Hub | Empowering Through Technology</title>
+
+
+  <link rel="icon" href="images/logosmall.webp" type="image/webp">
+
+
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/training.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-title">
+                <img src="images/logolarge.webp" alt="ACI Tech Hub Logo" class="logo large-logo" loading="lazy">
+                <img src="images/logosmall.webp" alt="ACI Tech Hub Logo" class="logo small-logo" loading="lazy">
+               
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+        </div>
+        <nav class="nav-menu" id="navMenu">
+            <a href="index.html" >Home</a>
+            <!-- <a href="#">About</a>
+            <a href="#">Service</a> -->
+            <a href="training.html" class="active">Training</a>
+            <a href="contact.html">Contact</a>
+            <div class="auth-mobile">
+                <a href="#">Signup</a>
+                <a href="#">Login</a>
+            </div>
+        </nav>
+
+        <div class="header-right">
+            <div class="btn desktop-only"><a href="#">Signup</a></div>
+            <div class="btn desktop-only"><a href="#">Login</a></div>
+        </div>
+    </header>
+
+
+
+  <main>
+        <h1>Upcoming Training Sessions</h1>
+    <section id="training-list" class="card-container">
+      <!-- JavaScript will inject cards here -->
+    </section>
+
+    <div id="last-viewed" class="last-viewed hidden">
+  <h3>Last Viewed Training</h3>
+  <p id="last-title"></p>
+</div>
+
+    <!-- Modal structure -->
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <span id="close-modal">&times;</span>
+    <h2 id="modal-title"></h2>
+    <p id="modal-description"></p>
+    <p><strong>Date:</strong> <span id="modal-date"></span></p>
+    <p><strong>Level:</strong> <span id="modal-level"></span></p>
+    <p><strong>Location:</strong> <span id="modal-location"></span></p>
+  </div>
+</div>
+
+  </main>
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section branding">
+            <h2><span class="highlight">ACI</span> Tech Hub</h2>
+            <p>Empowering Africa through digital literacy and innovation.</p>
+        </div>
+
+        <div class="footer-section contact">
+            <h3>Office</h3>
+            <address>
+                21 Innovation Drive, Ibadan, Nigeria<br>
+                <a href="mailto:info@acitechhub.org">info@acitechhub.org</a><br>
+                +234 800 000 0000
+            </address>
+        </div>
+
+        <div class="footer-section links">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="training.html">Training</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section newsletter">
+            <h3>Social Medial</h3>
+            <!-- <form>
+                <input type="email" placeholder="Enter your email" aria-label="Email">
+                <button type="submit">Subscribe</button>
+            </form> -->
+            <div class="social-icons">
+                <a href="#"><span><img src="images/facebook.svg" alt="Facebook" width="25" height="25" loading="lazy"></span></a>
+                <a href="#"><span><img src="images/linkedin.svg" alt="Facebook" width="25" height="25" loading="lazy"></span></a>
+                <a href="https://www.loom.com/share/b24fb5f6eaf34a9f9d4fc66f99386726?sid=c0b5a3bc-a04d-4907-8d2e-4da51a1a0e2c"><span><img src="images/youtube.svg" alt="Facebook" width="25" height="25" loading="lazy"></span></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> ACI Tech Hub. All rights reserved.</p>
+       </div>
+</footer>
+
+
+  <script src="scripts/script.js" ></script>
+  <!-- <script src="scripts/training.js" defer></script> -->
+   <script src="scripts/maintraining.js" type="module" ></script>
+</body>
+</html>

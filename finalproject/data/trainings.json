@@ -1,0 +1,108 @@
+[
+  {
+    "title": "Intro to Digital Literacy",
+    "description": "Learn essential computer skills, email use, and internet safety.",
+    "date": "2025-06-20",
+    "level": "Beginner",
+    "location": "ACI Hub, Lagos"
+  },
+  {
+    "title": "HTML & CSS Bootcamp",
+    "description": "Build your first website from scratch using HTML and CSS.",
+    "date": "2025-06-25",
+    "level": "Beginner",
+    "location": "ACI Hub, Abuja"
+  },
+  {
+    "title": "Business Tech Support 101",
+    "description": "Digitize your small business with free tools and basic training.",
+    "date": "2025-07-01",
+    "level": "For Entrepreneurs",
+    "location": "ACI Hub, Ibadan"
+  },
+  {
+    "title": "Introduction to JavaScript",
+    "description": "Learn JavaScript basics to make your website interactive.",
+    "date": "2025-07-05",
+    "level": "Beginner",
+    "location": "ACI Hub, Osogbo"
+  },
+  {
+    "title": "Graphic Design for Beginners",
+    "description": "Use Canva and other free tools to design like a pro.",
+    "date": "2025-07-10",
+    "level": "Beginner",
+    "location": "ACI Hub, Lagos"
+  },
+  {
+    "title": "Mobile Photography for Business",
+    "description": "Use your phone to take better product and brand photos.",
+    "date": "2025-07-12",
+    "level": "For Entrepreneurs",
+    "location": "ACI Hub, Ibadan"
+  },
+  {
+    "title": "Basic Excel & Google Sheets",
+    "description": "Track expenses, sales, and data using spreadsheets.",
+    "date": "2025-07-15",
+    "level": "Beginner",
+    "location": "ACI Hub, Abuja"
+  },
+  {
+    "title": "Create Your First Blog",
+    "description": "Learn to build and publish a blog using free platforms.",
+    "date": "2025-07-18",
+    "level": "Beginner",
+    "location": "ACI Hub, Osogbo"
+  },
+  {
+    "title": "Social Media Marketing Basics",
+    "description": "Promote your skills or business using Facebook & Instagram.",
+    "date": "2025-07-20",
+    "level": "For Entrepreneurs",
+    "location": "ACI Hub, Lagos"
+  },
+  {
+    "title": "Cybersecurity Essentials",
+    "description": "Protect your digital life and small business from online threats.",
+    "date": "2025-07-22",
+    "level": "Beginner",
+    "location": "ACI Hub, Ibadan"
+  },
+  {
+    "title": "UI/UX Fundamentals",
+    "description": "Understand the basics of user interface and experience design.",
+    "date": "2025-07-25",
+    "level": "Beginner",
+    "location": "ACI Hub, Abuja"
+  },
+  {
+    "title": "WhatsApp Business for Growth",
+    "description": "Automate replies, broadcast messages, and manage customers.",
+    "date": "2025-07-28",
+    "level": "For Entrepreneurs",
+    "location": "ACI Hub, Osogbo"
+  },
+  {
+    "title": "Remote Work & Online Jobs",
+    "description": "Explore freelance platforms and remote job opportunities.",
+    "date": "2025-08-01",
+    "level": "Beginner",
+    "location": "ACI Hub, Lagos"
+  },
+  {
+    "title": "Build with WordPress",
+    "description": "Create a business site or blog using WordPress—no coding needed.",
+    "date": "2025-08-03",
+    "level": "Beginner",
+    "location": "ACI Hub, Ibadan"
+  },
+  {
+    "title": "Digital Tools for Small Business",
+    "description": "Master free tools like Google Forms, Drive, and Canva for growth.",
+    "date": "2025-08-06",
+    "level": "For Entrepreneurs",
+    "location": "ACI Hub, Abuja"
+  }
+]
+

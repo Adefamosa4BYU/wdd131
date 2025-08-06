@@ -1,0 +1,232 @@
+/* Chat Toggle Button */
+#chat-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #007acc;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 1000;
+}
+
+/* Chat Box Styling */
+#chat-box {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 300px;
+  background: #f4f6f8;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#chat-header {
+  background: #007acc;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#chat-messages {
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+.bot, .user {
+  margin: 5px 0;
+  padding: 8px 12px;
+  border-radius: 15px;
+  max-width: 80%;
+}
+
+.bot {
+  background: #e1ecf7;
+  align-self: flex-start;
+}
+
+.user {
+  background: #007acc;
+  color: white;
+  align-self: flex-end;
+}
+
+#chat-input {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+
+#chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-bottom-left-radius: 10px;
+}
+
+#chat-input button {
+  background: #007acc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+/* Our Partnership Style */
+
+.trusted-brands-slider {
+  padding: 60px 20px;
+  background: #f4f6f8;
+  overflow: hidden;
+  text-align: center;
+}
+
+.trusted-title {
+  font-family: 'Poppins', sans-serif;
+  color: #007acc;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.logo-slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.logo-track {
+  display: flex;
+  width: calc(250px * 16); /* 16 logos (8 real + 8 clones) at ~250px each */
+  animation: scrollLeft 30s linear infinite;
+}
+
+.logo-track img {
+  width: 180px;
+  margin: 0 20px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.logo-track img:hover {
+  filter: grayscale(0%);
+}
+
+.logo-track:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .trusted-title {
+    font-size: 20px;
+  }
+
+  .logo-track img {
+    width: 120px;
+    margin: 0 15px;
+  }
+}
+
+
+/* Contact Style */
+.contact-section {
+  padding: 60px 20px;
+  background-color: #f4f6f8;
+  text-align: center;
+}
+
+.contact-section .section-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  color: #007acc;
+  margin-bottom: 10px;
+}
+
+.contact-section .subtitle {
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-info p {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.contact-info a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact-form button {
+  padding: 12px 20px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-form button:hover {
+  background-color: #005c99;
+}
+
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .contact-section .section-title {
+    font-size: 22px;
+  }
+}
+

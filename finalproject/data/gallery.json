@@ -1,0 +1,29 @@
+{
+  "activities": [
+    {
+      "img": "images/image.png",
+      "title": "Tech Bootcamp",
+      "desc": "Empowered 100+ beginners with tech skills in March 2024."
+    },
+    {
+      "img": "images/image.webp",
+      "title": "Digital Marketing Workshop",
+      "desc": "Focused on helping SMEs grow through digital tools."
+    },
+    {
+      "img": "images/image.png",
+      "title": "Women in Tech Training",
+      "desc": "Provided digital inclusion for women in Osun State."
+    },
+    {
+      "img": "images/image.webp",
+      "title": "Digital Marketing Workshop",
+      "desc": "Focused on helping SMEs grow through digital tools."
+    },
+    {
+      "img": "images/image.png",
+      "title": "Women in Tech Training",
+      "desc": "Provided digital inclusion for women in Osun State."
+    }
+  ]
+}
