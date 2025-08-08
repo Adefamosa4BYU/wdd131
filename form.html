@@ -43,25 +43,6 @@
 <body>
     <header>
       <h1>Product Review</h1>
-        <!-- <div class="header-container">
-            <div class="header-title">
-                <span id="course-title">Temple Album</span>
-
-            </div>
-            <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="close-icon">×</span>
-            </button>
-        </div>
-        <nav class="nav-menu" id="navMenu">
-            <a href="#" id="home">Home</a>
-            <a href="#" id="old">Old</a>
-            <a href="#" id="new">New</a>
-            <a href="#" id="large">Large</a>
-            <a href="#" id="small">Small</a>
-        </nav> -->
     </header>
 
     <main>
@@ -77,11 +58,11 @@
       <fieldset>
         <legend>Overall Rating *</legend>
         <div class="stars">
-          <label><input type="radio" name="rating" value="1" required />☆</label>
-          <label><input type="radio" name="rating" value="2" />☆☆</label>
-          <label><input type="radio" name="rating" value="3" />☆☆☆</label>
-          <label><input type="radio" name="rating" value="4" />☆☆☆☆</label>
-          <label><input type="radio" name="rating" value="5" />☆☆☆☆☆</label>
+          <label><input type="radio" id="rating1" name="rating" value="1" required />☆</label>
+          <label><input type="radio" id="rating2" name="rating" value="2" />☆☆</label>
+          <label><input type="radio" id="rating3" name="rating" value="3" />☆☆☆</label>
+          <label><input type="radio" id="rating4" name="rating" value="4" />☆☆☆☆</label>
+          <label><input type="radio" id="rating5" name="rating" value="5" />☆☆☆☆☆</label>
         </div>
       </fieldset>
 
@@ -107,7 +88,7 @@
       <input type="text" id="userName" name="userName" />
 
       <!-- Submit Button -->
-      <input type="submit" value="submit" />
+      <input type="submit" id="submitBtn" name="submitBtn" value="submit" />
     </form>
   </main>
 
